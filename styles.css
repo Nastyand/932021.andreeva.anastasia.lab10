@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.curtain{
+    position: absolute;
+    height: 100vh;
+    width: 1500px;
+    left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+    transition: 0.2s;
+    bottom: 0;
+    z-index: 10;
+}
+
+.curtain:hover{
+    bottom: 5%;
+}
+
+.lamp{
+    position: absolute;
+    left: 640px;
+    bottom: 280px;
+    z-index: 9;
+}
+
+.triangle{
+    position: absolute;
+    opacity: 0;
+    left: 380px;;
+    bottom: 40px;
+    border-left: 370px solid transparent;
+    border-right: 370px solid transparent;
+    border-bottom: 650px solid yellow;
+    z-index: 7;
+    pointer-events:none;
+    transition: 0.2s;
+}
+
+.wizard{
+    position: absolute;
+    left: 380px;;
+    bottom: 30px;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.hat{
+    transform: scale(0.12);
+    position: absolute;
+    left: 310px;
+    bottom: -410px;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.bunny{
+    transform: scale(0.12);
+    position: absolute;
+    left: 490px;
+    bottom: -410px;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pigeon{
+    transform: scale(0.1);
+    position: absolute;
+    left: 410px;
+    bottom: -410px;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.5s;
+}
+
