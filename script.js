@@ -42,9 +42,3 @@ document.addEventListener('DOMContentLoaded',function(){
 
 
 
-/*document.querySelector('.bunny').onclick = function(){
-
-    document.querySelector('.bunny').style.opacity = 0;
-
-}*/
-
